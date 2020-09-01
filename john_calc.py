@@ -1,5 +1,5 @@
 # This is the welcome message explaining the calculator and the deal we are giving for the coins.
-print("Welcome to Zunaids and buster's")
+print("Welcome to Zunaid and Buster's")
 print(" This will tell you how many gaming coins everyone can get for everyones cards!")
 print("For every $1 you get 5 coins, WHAT A STEAL!")
 
@@ -34,5 +34,5 @@ else:
 #this is printing out a message on how many coins you have but since the variable 'total_coins' is an int type, 
 #I'm wrapping it with str so that I can add it into the message
 
-print("Great!! You guys get " + str(total_coins) + " on each card!")
+print(f"Great!! You guys get {total_coin}  on each card!")
 
