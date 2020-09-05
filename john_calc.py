@@ -1,7 +1,7 @@
 # This is the welcome message explaining the calculator and the deal we are giving for the coins.
-print("Welcome to Zunaid and Buster's")
-print(" This will tell you how many gaming coins everyone can get for everyones cards!")
-print("For every $1 you get 5 coins, WHAT A STEAL!")
+print("Welcome to Zund and Buster's\n")
+print(" This will tell you how many gaming coins everyone can get for everyones cards!\n")
+print("For every $1 you get 5 coins, WHAT A STEAL!\n")
 
 #In this part of the code I am creating 2 variables , dollar is created to hold the amount of money a user is going to put in
 dollars = int(input("How many bean$(Bill$ only!) would you like to insert? "))
@@ -34,5 +34,5 @@ else:
 #this is printing out a message on how many coins you have but since the variable 'total_coins' is an int type, 
 #I'm wrapping it with str so that I can add it into the message
 
-print(f"Great!! You guys get {total_coin}  on each card!")
+print(f"Great!! You guys get" + str(total_coins) + "  on each card!")
 
