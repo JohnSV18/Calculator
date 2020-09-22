@@ -34,5 +34,5 @@ else:
 #this is printing out a message on how many coins you have but since the variable 'total_coins' is an int type, 
 #I'm wrapping it with str so that I can add it into the message
 
-print(f"Great!! You guys get" + str(total_coins) + "  on each card!")
+print("Great!! You guys get " + str(total_coins) + " coins on each card!")
 
